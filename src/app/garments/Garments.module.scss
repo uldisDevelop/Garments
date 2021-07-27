@@ -1,0 +1,47 @@
+body {
+  background-color: #f3f3f3;
+}
+
+.pageContainer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.page {
+  position: absolute;
+  left: 50%;
+  width: 1200px;
+  max-width: calc(100% - 10px);
+  top: 0px;
+  bottom: 0px;
+  transform: translateX(-50%);  
+}
+
+.variationsHeader{
+  font-size: 14px;
+  margin: 0px 0px 6px;
+}
+
+.variations{
+    display: inline-block;
+    border: 1px solid silver;
+    padding: 5px 4px 14px 11px;
+    background-color: #ececec;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.resultStockCode{
+  position: sticky;  
+  bottom: 5px;  
+  font-size: 24px;
+  font-weight: bold;  
+  margin-top: 10px;
+}
+
+.resultStockCodeLable{  
+  font-weight: 400;
+}
